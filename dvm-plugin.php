@@ -18,4 +18,8 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-echo "hello world";
+define("DVM_PLUGIN_VERSION", "1.0.0");
+define("DVM_PLUGIN_DIR", plugin_dir_path( __FILE__ ) );
+define("DVM_PLUGIN_URL", plugin_dir_url( __FILE__ ) );
+
+include_once DVM_PLUGIN_DIR . 'inc/dvm-scripts.php';
