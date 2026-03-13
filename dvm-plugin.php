@@ -29,3 +29,6 @@ require_once DVM_PLUGIN_DIR . 'inc/hooks.php';
 require_once DVM_PLUGIN_DIR . 'inc/cpt.php';
 require_once DVM_PLUGIN_DIR . 'inc/taxonomies.php';
 require_once DVM_PLUGIN_DIR . 'inc/metaboxes.php';
+
+// include shortcodes
+require_once DVM_PLUGIN_DIR . 'inc/shortcode.php';
