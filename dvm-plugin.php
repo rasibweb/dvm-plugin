@@ -22,5 +22,10 @@ define("DVM_PLUGIN_VERSION", "1.0.0");
 define("DVM_PLUGIN_DIR", plugin_dir_path( __FILE__ ) );
 define("DVM_PLUGIN_URL", plugin_dir_url( __FILE__ ) );
 
-include_once DVM_PLUGIN_DIR . 'inc/dvm-scripts.php';
-include_once DVM_PLUGIN_DIR . 'inc/hooks.php';
+require_once DVM_PLUGIN_DIR . 'inc/dvm-scripts.php';
+require_once DVM_PLUGIN_DIR . 'inc/hooks.php';
+
+// include CPTs, Taxonomies and Meta Boxes
+require_once DVM_PLUGIN_DIR . 'inc/cpt.php';
+require_once DVM_PLUGIN_DIR . 'inc/taxonomies.php';
+require_once DVM_PLUGIN_DIR . 'inc/metaboxes.php';
