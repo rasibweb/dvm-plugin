@@ -23,3 +23,4 @@ define("DVM_PLUGIN_DIR", plugin_dir_path( __FILE__ ) );
 define("DVM_PLUGIN_URL", plugin_dir_url( __FILE__ ) );
 
 include_once DVM_PLUGIN_DIR . 'inc/dvm-scripts.php';
+include_once DVM_PLUGIN_DIR . 'inc/hooks.php';
