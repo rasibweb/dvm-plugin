@@ -13,7 +13,7 @@ function dvm_admin_menu() {
     );
 
     add_submenu_page(
-        'tools.php',
+        'dvm-plugin',
         'DVM Sub Options',
         'DVM Sub Options',
         'manage_options',
