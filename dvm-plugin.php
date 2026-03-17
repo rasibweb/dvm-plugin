@@ -36,3 +36,6 @@ require_once DVM_PLUGIN_DIR . 'inc/shortcode.php';
 // include admin menu and page
 require_once DVM_PLUGIN_DIR . 'inc/admin-menu.php';
 require_once DVM_PLUGIN_DIR . 'inc/admin-page.php';
+
+// include admin settings
+require_once DVM_PLUGIN_DIR . 'inc/admin-settings.php';
