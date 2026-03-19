@@ -7,7 +7,7 @@ function dvm_options_page_html() {
       <form action="options.php" method="post">
         <?php
         // output security fields for the registered setting "dvm_plugin"
-        settings_fields( 'dvm_plugin' );
+        settings_fields( 'dvm-plugin' );
         // output setting sections and their fields
         // (sections are registered for "dvm-plugin", each field is registered to a specific section)
         do_settings_sections( 'dvm-plugin' );
